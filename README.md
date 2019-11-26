@@ -355,3 +355,6 @@ If you were able to follow the above description you should have a pretty solid 
 
 It should be noticed that this library was not an intended project. It was only a by-product of other projects and was only tested in the context of these other projects. 
 There is no gurantee that there are no bugs or other problems with the project. If you encounter any problems, please report them by submitting an issue.
+
+
+*Copyright 2019, Tobias Neitzel and the ttf contributors.*
