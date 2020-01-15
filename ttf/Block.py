@@ -276,8 +276,13 @@ class Block:
             #body we need to more work to get a nice formatted output
             if not self.headNewline and bodyLines != []:
                 #we have to determine if there are spaces for body indentation left and append them
-                indentLeft = self.bodyIndent - Block.realLength(headLines[-1])
-                headLines[-1] += ' ' * indentLeft
+                try:
+                    indentLeft = self.bodyIndent - Block.realLength(headLines[-1])
+                    headLines[-1] += ' ' * indentLeft
+                except IndexError:
+                    #cases where the hadnline was empty has to be handeled seperatly
+                    indentLeft = self.bodyIndent
+                    headLines.append(' ' * indentLeft)
                 #we have to determine how many characters the body text beside the headline can take.
                 #then we create a textwrap object for that size
                 charactersLeft = self.size - Block.realLength(headLines[-1]) - self.padding[1] - self.padding[3]
