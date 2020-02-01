@@ -352,4 +352,4 @@ It should be noticed that this library was not an intended project. It was only 
 There is no gurantee that there are no bugs or other problems with the project. If you encounter any problems, please report them by submitting an issue.
 
 
-*Copyright 2019, Tobias Neitzel and the ttf contributors.*
+*Copyright 2020, Tobias Neitzel and the ttf contributors.*
