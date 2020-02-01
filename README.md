@@ -7,29 +7,24 @@
 
 -----
 
-**Via setup.py**
+1. **Via setup.py**
 
-To install it, make sure you have Python 3.6 or greater installed.  Then run these command from the command prompt:
+    To install it, make sure you have Python 3.6 or greater installed.  Then run these command from the command prompt:
 
-```
-$ pip3 install -r requirements.txt --user
-$ python3 setup.py install --user
-```
+        $ pip3 install -r requirements.txt --user
+        $ python3 setup.py install --user
 
-**As pip package**
+2. **As pip package**
 
-If you want to generate a pip package instead, run the following command from
-the command prompt:
+    If you want to generate a pip package instead, run the following command from
+    the command prompt:
 
-```
-$ python3 setup.py sdist
-```
+        $ python3 setup.py sdist
 
-You can then install the library via pip using:
+    You can then install the library via pip using:
 
-```
-$ pip3 install dist/ttf-1.1.0.tar.gz --user
-```
+        $ pip3 install -r requirements.txt --user
+        $ pip3 install dist/ttf-1.1.0.tar.gz --user
 
 
 ### Description 
@@ -357,4 +352,4 @@ It should be noticed that this library was not an intended project. It was only 
 There is no gurantee that there are no bugs or other problems with the project. If you encounter any problems, please report them by submitting an issue.
 
 
-*Copyright 2019, Tobias Neitzel and the ttf contributors.*
+*Copyright 2020, Tobias Neitzel and the ttf contributors.*
